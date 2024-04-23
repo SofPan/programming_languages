@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root to: "programming_languages#index"
+
   resources :programming_languages
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
